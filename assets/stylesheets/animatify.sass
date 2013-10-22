@@ -1,0 +1,40 @@
+/**
+ * animatify.sass
+ *
+ * @package animatify
+ * @media screen
+ * @version 1.0
+ */
+
+@import bourbon
+
+@import animatify/effects/fade_in
+@import animatify/effects/flash
+
+/**
+ * @mixin animatify
+ */
+
+@mixin animatify
+  @include webkit-backface-visibility
+
+  @include keyframes-fade-in
+  @include keyframes-flash
+
+  .animated
+    @include animation-fill-mode(both)
+    @include animation-duration(1s)
+
+    &.hinge
+      @include animation-duration(2s)
+
+    @include animation-fade-in
+    @include animation-flash
+
+/**
+ * @mixin webkit backface visibility
+ */
+
+@mixin webkit-backface-visibility
+  body // Addresses a small issue in webkit: http://bit.ly/NEdoDq
+    -webkit-backface-visibility: hidden

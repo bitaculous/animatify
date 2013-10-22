@@ -1,0 +1,27 @@
+/**
+ * fade_in.sass
+ *
+ * @package animatify/effects
+ * @media screen
+ * @version 1.0
+ */
+
+/**
+ * @mixin keyframes fade in
+ */
+
+@mixin keyframes-fade-in
+  @include keyframes(fade-in)
+    0%
+      opacity: 0
+
+    100%
+      opacity: 1
+
+/**
+ * @mixin animation fade in
+ */
+
+@mixin animation-fade-in
+  &.fade-in
+    @include animation-name(fade-in)
