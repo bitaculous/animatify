@@ -19,34 +19,42 @@ Installation
 Usage
 -----
 
-The most basic option is simply:
+First, import animatify:
 
 ```sass
 @import animatify
+```
 
+The most basic option is simply:
+
+```sass
 @include animatify
 ```
 
 which includes the “full package”.
 
+To include only the “animated” class:
+
+```sass
+@include animated
+```
+
+or
+
+```sass
+@include animated($selector: '.foobar')
+```
+
 Let's say you want just the “bounce” animation:
 
 ```sass
-@import animatify
-
-@include webkit-backface-visibility
-@include animated
 @include animation('bounce')
 ```
 
 But you can get much more detailed:
 
 ```sass
-@import animatify
-
-@include webkit-backface-visibility
-@include animated($selector: '.animated', $duration: 2s)
-@include animation($name: 'bounce', $selector: '.animated')
+@include animation($name: 'bounce', $selector: '.foobar')
 ```
 
 Options
