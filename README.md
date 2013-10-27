@@ -42,7 +42,7 @@ To include only the “animated” class:
 or
 
 ```sass
-@include animated($selector: '.foobar')
+@include animated($selector: '.foobar', $duration: 2s)
 ```
 
 Let's say you want just the “bounce” animation:
