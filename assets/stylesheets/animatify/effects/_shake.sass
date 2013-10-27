@@ -1,0 +1,31 @@
+/**
+ * _shake.sass
+ *
+ * @package animatify/effects
+ * @media screen
+ * @version 1.0
+ */
+
+/**
+ * @mixin animation shake
+ */
+
+@mixin animation-shake($selector: $default-animation-selector)
+  @include keyframes-shake
+
+  @include animation-class('shake', $selector)
+
+/**
+ * @mixin keyframes shake
+ */
+
+@mixin keyframes-shake
+  @include keyframes('shake')
+    0%, 100%
+      @include transform(translateX(0))
+
+    10%, 30%, 50%, 70%, 90%
+      @include transform(translateX(-10px))
+
+    20%, 40%, 60%, 80%
+      @include transform(translateX(10px))

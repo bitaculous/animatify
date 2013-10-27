@@ -19,8 +19,14 @@
   @include webkit-backface-visibility
 
   @include animated
-  @include animation('fade-in')
+
+  @include animation('bounce')
   @include animation('flash')
+  @include animation('pulse')
+  @include animation('shake')
+  @include animation('swing')
+  @include animation('tada')
+  @include animation('wobble')
 
 /**
  * @mixin animated
@@ -36,10 +42,20 @@
  */
 
 @mixin animation($name, $selector: $default-animation-selector)
-  @if $name == 'fade-in'
-    @include keyframes-fade-in
+  @if $name == 'bounce'
+    @include keyframes-bounce
   @else if $name == 'flash'
     @include keyframes-flash
+  @else if $name == 'pulse'
+    @include keyframes-pulse
+  @else if $name == 'shake'
+    @include keyframes-shake
+  @else if $name == 'swing'
+    @include keyframes-swing
+  @else if $name == 'tada'
+    @include keyframes-tada
+  @else if $name == 'wobble'
+    @include keyframes-wobble
 
   @include animation-class($name, $selector)
 
