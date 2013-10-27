@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/bitaculous/animatify'
   spec.version       = Animatify::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.date          = '2013-10-22'
+  spec.date          = '2013-10-27'
   spec.licenses      = 'MIT'
 
   spec.require_paths = ['lib']
