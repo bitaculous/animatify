@@ -78,8 +78,10 @@ Implemented effects
 Credits
 -------
 
+All animations originate from [animate.css](https://github.com/daneden/animate.css "animate.css") by [Daniel Eden](https://github.com/daneden "Daniel Eden").
+
 Animatify uses [Bourbon](https://github.com/thoughtbot/bourbon "Bourbon") by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.") to implement
-all animations. All Animation originate from [animate.css](https://github.com/daneden/animate.css "animate.css") by [Daniel Eden](https://github.com/daneden "Daniel Eden").
+all animations.
 
 Code Status
 -----------
