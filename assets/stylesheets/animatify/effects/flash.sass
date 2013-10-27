@@ -7,21 +7,22 @@
  */
 
 /**
+ * @mixin animation flash
+ */
+
+@mixin animation-flash($selector: $default-animation-selector)
+  @include keyframes-flash
+
+  @include animation-class('flash', $selector)
+
+/**
  * @mixin keyframes flash
  */
 
 @mixin keyframes-flash
-  @include keyframes(flash)
+  @include keyframes('flash')
     0%, 50%, 100%
       opacity: 1
 
     25%, 75%
       opacity: 0
-
-/**
- * @mixin animation flash
- */
-
-@mixin animation-flash
-  &.flash
-    @include animation-name(flash)
