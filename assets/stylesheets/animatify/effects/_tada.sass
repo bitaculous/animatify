@@ -1,23 +1,13 @@
-/**
- * _tada.sass
- *
- * @package animatify/effects
- * @media screen
- * @version 1.0
- */
-
-/**
- * @mixin animation tada
- */
+// _tada.sass
+//
+// @package animatify/effects
+// @media screen
+// @version 1.0
 
 @mixin animation-tada($selector: $default-animation-selector)
   @include keyframes-tada
 
   @include animation-class('tada', $selector)
-
-/**
- * @mixin keyframes tada
- */
 
 @mixin keyframes-tada
   @include keyframes('tada')

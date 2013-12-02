@@ -1,23 +1,13 @@
-/**
- * flash.sass
- *
- * @package animatify/effects
- * @media screen
- * @version 1.0
- */
-
-/**
- * @mixin animation flash
- */
+// _flash.sass
+//
+// @package animatify/effects
+// @media screen
+// @version 1.0
 
 @mixin animation-flash($selector: $default-animation-selector)
   @include keyframes-flash
 
   @include animation-class('flash', $selector)
-
-/**
- * @mixin keyframes flash
- */
 
 @mixin keyframes-flash
   @include keyframes('flash')

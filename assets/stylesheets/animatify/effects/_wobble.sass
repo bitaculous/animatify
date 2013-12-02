@@ -1,23 +1,13 @@
-/**
- * _wobble.sass
- *
- * @package animatify/effects
- * @media screen
- * @version 1.0
- */
-
-/**
- * @mixin animation wobble
- */
+// _wobble.sass
+//
+// @package animatify/effects
+// @media screen
+// @version 1.0
 
 @mixin animation-wobble($selector: $default-animation-selector)
   @include keyframes-wobble
 
   @include animation-class('wobble', $selector)
-
-/**
- * @mixin keyframes wobble
- */
 
 @mixin keyframes-wobble
   @include keyframes('wobble')

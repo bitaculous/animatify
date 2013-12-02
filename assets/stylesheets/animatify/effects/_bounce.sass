@@ -1,23 +1,13 @@
-/**
- * _bounce.sass
- *
- * @package animatify/effects
- * @media screen
- * @version 1.0
- */
-
-/**
- * @mixin animation bounce
- */
+// _bounce.sass
+//
+// @package animatify/effects
+// @media screen
+// @version 1.0
 
 @mixin animation-bounce($selector: $default-animation-selector)
   @include keyframes-bounce
 
   @include animation-class('bounce', $selector)
-
-/**
- * @mixin keyframes bounce
- */
 
 @mixin keyframes-bounce
   @include keyframes('bounce')

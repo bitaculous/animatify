@@ -1,23 +1,13 @@
-/**
- * _swing.sass
- *
- * @package animatify/effects
- * @media screen
- * @version 1.0
- */
-
-/**
- * @mixin animation swing
- */
+// _swing.sass
+//
+// @package animatify/effects
+// @media screen
+// @version 1.0
 
 @mixin animation-swing($selector: $default-animation-selector)
   @include keyframes-swing
 
   @include animation-class('swing', $selector)
-
-/**
- * @mixin keyframes swing
- */
 
 @mixin keyframes-swing
   @include keyframes('swing')

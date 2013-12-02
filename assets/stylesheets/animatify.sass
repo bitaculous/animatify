@@ -1,19 +1,13 @@
-/**
- * animatify.sass
- *
- * @package animatify
- * @media screen
- * @version 1.0
- */
+// animatify.sass
+//
+// @package animatify
+// @media screen
+// @version 1.0
 
 @import bourbon
 
 @import animatify/variables
 @import animatify/effects
-
-/**
- * @mixin animatify
- */
 
 @mixin animatify
   @include webkit-backface-visibility
@@ -28,18 +22,10 @@
   @include animation('tada')
   @include animation('wobble')
 
-/**
- * @mixin animated
- */
-
 @mixin animated($selector: $default-animation-selector, $duration: $default-animation-duration)
   #{$selector}
     @include animation-fill-mode('both')
     @include animation-duration($duration)
-
-/**
- * @mixin animation
- */
 
 @mixin animation($name, $selector: $default-animation-selector)
   @if $name == 'bounce'
@@ -59,18 +45,13 @@
 
   @include animation-class($name, $selector)
 
-/**
- * @mixin animation class
- */
-
 @mixin animation-class($name, $selector: $default-animation-selector)
   #{$selector}.#{$name}
     @include animation-name($name)
 
-/**
- * @mixin webkit backface visibility
- */
-
 @mixin webkit-backface-visibility
-  body // Addresses a small issue in webkit: http://bit.ly/NEdoDq
+  // Addresses a small issue in webkit
+  //
+  // @see http://bit.ly/NEdoDq
+  body
     -webkit-backface-visibility: hidden
