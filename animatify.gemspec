@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/bitaculous/animatify'
   spec.version       = Animatify::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.date          = '2013-10-27'
+  spec.date          = '2013-12-02'
   spec.licenses      = 'MIT'
 
   spec.require_paths = ['lib']
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'bourbon', '~> 3.1.8'
 
-  spec.add_dependency 'sprockets', '~> 2.10.0'
+  spec.add_dependency 'sprockets', '~> 2.10.1'
 
   spec.add_development_dependency 'bundler', '~> 1.3.5'
 
