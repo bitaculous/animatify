@@ -100,8 +100,4 @@ Code Status
 License
 -------
 
-MIT License
-
-“Animatify” is released under the MIT license.
-
-See “COPYING”.
+“Animatify” is released under the MIT License, see “LICENSE”.
