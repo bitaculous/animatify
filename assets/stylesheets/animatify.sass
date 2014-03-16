@@ -10,11 +10,12 @@
 @import animatify/effects
 
 @mixin animatify
-  @include webkit-backface-visibility
-
   @include animated
 
+  @include hinge
+
   @include animation('bounce')
+  @include animation('fade-in')
   @include animation('flash')
   @include animation('pulse')
   @include animation('shake')
@@ -22,14 +23,21 @@
   @include animation('tada')
   @include animation('wobble')
 
-@mixin animated($selector: $default-animation-selector, $duration: $default-animation-duration)
+@mixin animated($selector: $default-animation-selector, $duration: $default-animation-duration, $fill-mode: $default-animation-fill-mode)
   #{$selector}
-    @include animation-fill-mode('both')
     @include animation-duration($duration)
+    @include animation-fill-mode($fill-mode)
+
+@mixin hinge($selector: $default-animation-selector, $hinge-selector: $default-hinge-selector, $hinge-animation-duration: $default-hinge-animation-duration)
+  #{$selector}
+    &#{$hinge-selector}
+      @include animation-duration($hinge-animation-duration)
 
 @mixin animation($name, $selector: $default-animation-selector)
   @if $name == 'bounce'
     @include keyframes-bounce
+  @else if $name == 'fade-in'
+    @include keyframes-fade-in
   @else if $name == 'flash'
     @include keyframes-flash
   @else if $name == 'pulse'
@@ -48,10 +56,3 @@
 @mixin animation-class($name, $selector: $default-animation-selector)
   #{$selector}.#{$name}
     @include animation-name($name)
-
-@mixin webkit-backface-visibility
-  // Addresses a small issue in webkit
-  //
-  // @see http://bit.ly/NEdoDq
-  body
-    -webkit-backface-visibility: hidden
