@@ -94,8 +94,8 @@ all animations.
 Code Status
 -----------
 
-[<img src="https://secure.travis-ci.org/bitaculous/animatify.png" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/animatify)
-[<img src="https://gemnasium.com/bitaculous/animatify.png?travis" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/animatify)
+[<img src="https://travis-ci.org/bitaculous/animatify.svg" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/animatify)
+[<img src="https://gemnasium.com/bitaculous/animatify.svg" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/animatify)
 
 License
 -------
