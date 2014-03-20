@@ -15,6 +15,7 @@
   @include hinge
 
   @include animation('bounce')
+  @include animation('bounce-in')
   @include animation('fade-in')
   @include animation('flash')
   @include animation('pulse')
@@ -36,6 +37,8 @@
 @mixin animation($name, $selector: $default-animation-selector)
   @if $name == 'bounce'
     @include keyframes-bounce
+  @if $name == 'bounce-in'
+    @include keyframes-bounce-in
   @else if $name == 'fade-in'
     @include keyframes-fade-in
   @else if $name == 'flash'

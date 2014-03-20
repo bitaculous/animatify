@@ -78,6 +78,7 @@ Implemented effects
 ### Bouncing
 
 * Bounce
+* Bounce in
 
 ### Other
 

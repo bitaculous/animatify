@@ -1,0 +1,30 @@
+// _bounce_in.sass
+//
+// @package animatify/effects/bouncing
+// @media screen
+// @version 1.0
+
+@mixin animation-bounce-in($selector: $default-animation-selector)
+  @include keyframes-bounce-in
+
+  @include animation-class('bounce-in', $selector)
+
+@mixin keyframes-bounce-in
+  @include keyframes('bounce-in')
+    0%
+      opacity: 0
+
+      @include transform(scale(.3))
+
+    50%
+      opacity: 1
+
+      @include transform(scale(1.05))
+
+    75%
+      @include transform(scale(0.9))
+
+    100%
+      opacity: 1
+
+      @include transform(scale(1))
