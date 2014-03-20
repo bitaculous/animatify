@@ -75,7 +75,13 @@ $prefix-for-opera:     false
 Implemented effects
 -------------------
 
+### Bouncing
+
 * Bounce
+
+### Other
+
+* Fade in
 * Flash
 * Pulse
 * Shake
