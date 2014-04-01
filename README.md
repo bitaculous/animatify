@@ -45,7 +45,7 @@ or
 @include animated($selector: '.foobar', $duration: 2s)
 ```
 
-Let's say you want just the “bounce” animation:
+Let's say you just want the “bounce” animation:
 
 ```sass
 @include animation('bounce')
