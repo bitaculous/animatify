@@ -1,7 +1,7 @@
 [ANIMATIFY](http://bitaculous.github.io/animatify "Animatify")
 ==============================================================
 
-**“All your CSS3 animations are belong to us.”**
+**“All your CSS3 animations are belong to us” (“AYCAABTU”)**
 
 Installation
 ------------

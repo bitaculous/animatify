@@ -7,7 +7,7 @@ require 'animatify/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'animatify'
-  spec.summary       = '“All your CSS3 animations are belong to us.”'
+  spec.summary       = '“All your CSS3 animations are belong to us” (“AYCAABTU”)'
   spec.author        = 'Maik Kempe'
   spec.email         = 'mkempe@bitaculous.com'
   spec.homepage      = 'http://bitaculous.github.io/animatify'
