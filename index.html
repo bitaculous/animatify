@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Animatify by bitaculous</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Animatify</h1>
+        <p>“All your CSS3 animations are belong to us” (“AYCAABTU”)</p>
+
+        <p class="view"><a href="https://github.com/bitaculous/animatify">View the Project on GitHub <small>bitaculous/animatify</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bitaculous/animatify/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bitaculous/animatify/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bitaculous/animatify">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li>
+<p>Add animatify to your Gemfile:</p>
+
+<pre><code>group :assets do
+  gem 'animatify', github: 'bitaculous/animatify'
+end
+</code></pre>
+</li>
+<li><p>Run <code>bundle install</code></p></li>
+</ol><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>First, import animatify:</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@import</span> <span class="s">animatify</span>
+</pre></div>
+
+<p>The most basic option is simply:</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animatify</span>
+</pre></div>
+
+<p>which includes the “full package”.</p>
+
+<p>To include only the “animated” class:</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animated</span>
+</pre></div>
+
+<p>or</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animated</span><span class="p">(</span><span class="nv">$selector</span><span class="o">:</span> <span class="s1">'</span><span class="s2">.foobar'</span><span class="o">,</span> <span class="nv">$duration</span><span class="o">:</span> <span class="mi">2</span><span class="kt">s</span><span class="p">)</span>
+</pre></div>
+
+<p>Let's say you just want the “bounce” animation:</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animation</span><span class="p">(</span><span class="s1">'</span><span class="s2">bounce'</span><span class="p">)</span>
+</pre></div>
+
+<p>But you can get much more detailed:</p>
+
+<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animation</span><span class="p">(</span><span class="nv">$name</span><span class="o">:</span> <span class="s1">'</span><span class="s2">bounce'</span><span class="o">,</span> <span class="nv">$selector</span><span class="o">:</span> <span class="s1">'</span><span class="s2">.foobar'</span><span class="p">)</span>
+</pre></div>
+
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+
+<h3>
+<a name="prefixes" class="anchor" href="#prefixes"><span class="octicon octicon-link"></span></a>Prefixes</h3>
+
+<p>Animatify uses under the hood <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement
+all animations, you can disable prefixes with:</p>
+
+<div class="highlight highlight-sass"><pre><span class="na">$prefix-for-webkit</span><span class="o">:</span>    <span class="n-Pseudo">false</span>
+<span class="na">$prefix-for-mozilla</span><span class="o">:</span>   <span class="n-Pseudo">false</span>
+<span class="na">$prefix-for-microsoft</span><span class="o">:</span> <span class="n-Pseudo">false</span>
+<span class="na">$prefix-for-opera</span><span class="o">:</span>     <span class="n-Pseudo">false</span>
+</pre></div>
+
+<h2>
+<a name="implemented-effects" class="anchor" href="#implemented-effects"><span class="octicon octicon-link"></span></a>Implemented effects</h2>
+
+<h3>
+<a name="bouncing" class="anchor" href="#bouncing"><span class="octicon octicon-link"></span></a>Bouncing</h3>
+
+<ul>
+<li>Bounce</li>
+<li>Bounce in</li>
+</ul><h3>
+<a name="other" class="anchor" href="#other"><span class="octicon octicon-link"></span></a>Other</h3>
+
+<ul>
+<li>Fade in</li>
+<li>Flash</li>
+<li>Pulse</li>
+<li>Shake</li>
+<li>Swing</li>
+<li>Tada</li>
+<li>Wobble</li>
+</ul><h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>All animations originate from <a href="https://github.com/daneden/animate.css" title="animate.css">animate.css</a> by <a href="https://github.com/daneden" title="Daniel Eden">Daniel Eden</a>.</p>
+
+<p>Animatify uses <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement
+all animations.</p>
+
+<h2>
+<a name="code-status" class="anchor" href="#code-status"><span class="octicon octicon-link"></span></a>Code Status</h2>
+
+<p><a href="http://travis-ci.org/bitaculous/animatify"><img src="https://travis-ci.org/bitaculous/animatify.svg" title="Travis CI Status" alt="Travis CI Status"></a>
+<a href="https://gemnasium.com/bitaculous/animatify"><img src="https://gemnasium.com/bitaculous/animatify.svg" title="Gemnasium Status" alt="Gemnasium Status"></a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Animatify is released under the MIT License.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bitaculous">bitaculous</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
