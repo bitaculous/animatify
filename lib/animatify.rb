@@ -1,10 +1,9 @@
 module Animatify
-  require 'animatify/paths'
+  require_relative 'animatify/paths'
 
   extend Paths
 
-  @root = File.expand_path '../../', __FILE__
+  @trail = File.expand_path '../../', __FILE__
 
-  require 'animatify/integration/sass'
-  require 'animatify/integration/sprockets'
+  require_relative 'animatify/integrations'
 end
