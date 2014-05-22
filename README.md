@@ -3,7 +3,7 @@
 
 **“All your CSS3 animations are belong to us” (“AYCAABTU”)**
 
-[<img src="https://travis-ci.org/bitaculous/animatify.svg" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/animatify) [<img src="https://gemnasium.com/bitaculous/animatify.svg" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/animatify)
+[![Travis CI Status](https://travis-ci.org/bitaculous/animatify.svg)](http://travis-ci.org/bitaculous/animatify) [![Gemnasium Status](https://gemnasium.com/bitaculous/animatify.svg)](https://gemnasium.com/bitaculous/animatify)
 
 Installation
 ------------
