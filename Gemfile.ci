@@ -3,13 +3,13 @@
 source 'https://rubygems.org'
 
 group :default do
-  gem 'bourbon', '~> 3.2.1'
+  gem 'bourbon', '~> 4.0.2'
 
   gem 'sprockets', '~> 2.12.1'
 end
 
 group :development do
-  gem 'rake', '~> 10.3.1'
+  gem 'rake', '~> 10.3.2'
 end
 
 group :development, :test do
