@@ -3,6 +3,8 @@
 
 **“All your CSS3 animations are belong to us” (“AYCAABTU”)**
 
+[<img src="https://travis-ci.org/bitaculous/animatify.svg" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/animatify) [<img src="https://gemnasium.com/bitaculous/animatify.svg" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/animatify)
+
 Installation
 ------------
 
@@ -62,8 +64,8 @@ Options
 
 ### Prefixes
 
-Animatify uses under the hood [Bourbon](https://github.com/thoughtbot/bourbon "Bourbon") by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.") to implement
-all animations, you can disable prefixes with:
+Animatify uses under the hood [Bourbon](https://github.com/thoughtbot/bourbon "Bourbon") by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.")
+to implement all animations, you can disable prefixes with:
 
 ```sass
 $prefix-for-webkit:    false
@@ -98,13 +100,7 @@ All animations originate from [animate.css](https://github.com/daneden/animate.c
 Animatify uses [Bourbon](https://github.com/thoughtbot/bourbon "Bourbon") by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.") to implement
 all animations.
 
-Code Status
------------
-
-[<img src="https://travis-ci.org/bitaculous/animatify.svg" title="Travis CI Status" alt="Travis CI Status" />](http://travis-ci.org/bitaculous/animatify)
-[<img src="https://gemnasium.com/bitaculous/animatify.svg" title="Gemnasium Status" alt="Gemnasium Status" />](https://gemnasium.com/bitaculous/animatify)
-
 License
 -------
 
-Animatify is released under the MIT License.
+Animatify is released under the MIT License (MIT), see [LICENSE](https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License").
