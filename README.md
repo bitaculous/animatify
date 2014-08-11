@@ -1,10 +1,10 @@
-[Animatify](http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”")
-================================================================================================
+[Animatify]
+===========
 
 **“All your CSS3 animations are belong to us”**
 
-[![Travis CI Status](https://travis-ci.org/bitaculous/animatify.svg)](http://travis-ci.org/bitaculous/animatify)
-[![Gemnasium Status](https://gemnasium.com/bitaculous/animatify.svg)](https://gemnasium.com/bitaculous/animatify)
+[![Travis CI Status][Travis CI Status]][Travis CI]
+[![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 Installation
 ------------
@@ -65,9 +65,7 @@ Options
 
 ### Prefixes
 
-[Animatify](http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”") uses under the hood
-[Bourbon](https://github.com/thoughtbot/bourbon "Bourbon") by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.")
-to implement all animations, you can disable prefixes with:
+Animatify uses under the hood [Bourbon] by [thoughtbot, inc.] to implement all animations, you can disable prefixes with:
 
 ```sass
 $prefix-for-webkit:    false
@@ -97,28 +95,38 @@ Implemented effects
 Credits
 -------
 
-All animations originate from [animate.css](https://github.com/daneden/animate.css "animate.css") by [Daniel Eden](https://github.com/daneden "Daniel Eden").
+All animations originate from [animate.css] by [Daniel Eden].
 
-[Animatify](http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”") uses [Bourbon](https://github.com/thoughtbot/bourbon "Bourbon")
-by [thoughtbot, inc.](http://robots.thoughtbot.com "thoughtbot, inc.") to implement all animations.
+Animatify uses [Bourbon] by [thoughtbot, inc.] to implement all animations.
 
-Bug Reports
+Bug reports
 -----------
 
 Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
-and submit new problems [here](https://github.com/bitaculous/animatify/issues "Github Issues").
+and submit new problems [here].
 
 Versioning
 ----------
 
-This library aims to adhere to [Semantic Versioning 2.0.0][semver]. Violations of this scheme should be reported as bugs.
+This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
-
-[semver]: http://semver.org
 
 License
 -------
 
-[Animatify](http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”") is released under the
-MIT License (MIT), see [LICENSE](https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License").
+Assetify is released under the [MIT License (MIT)], see [LICENSE].
+
+[animate.css]: https://github.com/daneden/animate.css "animate.css"
+[Animatify]: http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”"
+[Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
+[Daniel Eden]: https://github.com/daneden "Daniel Eden"
+[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
+[Gemnasium]: https://gemnasium.com/bitaculous/animatify "Animatify at Gemnasium"
+[here]: https://github.com/bitaculous/animatify/issues "Github Issues"
+[LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
+[MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
+[Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
+[Travis CI Status]: http://img.shields.io/travis/bitaculous/animatify.svg?style=flat "Travis CI Status"
+[Travis CI]: https://travis-ci.org/bitaculous/animatify "Animatify at Travis CI"
