@@ -13,47 +13,47 @@ describe Animatify::Paths do
   let(:vendor_javascripts_path) { File.expand_path 'javascripts', vendor_assets_path }
   let(:vendor_stylesheets_path) { File.expand_path 'stylesheets', vendor_assets_path }
 
-  it 'returns the “assets” path' do
+  it 'returns the assets path' do
     expect(Animatify.assets_path).to eql assets_path
   end
 
-  it 'returns the “fonts” path' do
+  it 'returns the fonts path' do
     expect(Animatify.fonts_path).to eql fonts_path
   end
 
-  it 'returns the “images” path' do
+  it 'returns the images path' do
     expect(Animatify.images_path).to eql images_path
   end
 
-  it 'returns the “javascripts” path' do
+  it 'returns the javascripts path' do
     expect(Animatify.javascripts_path).to eql javascripts_path
   end
 
-  it 'returns the “stylesheets” path' do
+  it 'returns the stylesheets path' do
     expect(Animatify.stylesheets_path).to eql stylesheets_path
   end
 
-  it 'returns the “vendor” path' do
+  it 'returns the vendor path' do
     expect(Animatify.vendor_path).to eql vendor_path
   end
 
-  it 'returns the “vendor assets” path' do
+  it 'returns the vendor assets path' do
     expect(Animatify.vendor_assets_path).to eql vendor_assets_path
   end
 
-  it 'returns the “vendor fonts” path' do
+  it 'returns the vendor fonts path' do
     expect(Animatify.vendor_fonts_path).to eql vendor_fonts_path
   end
 
-  it 'returns the “vendor images” path' do
+  it 'returns the vendor images path' do
     expect(Animatify.vendor_images_path).to eql vendor_images_path
   end
 
-  it 'returns the “vendor javascripts” path' do
+  it 'returns the vendor javascripts path' do
     expect(Animatify.vendor_javascripts_path).to eql vendor_javascripts_path
   end
 
-  it 'returns “vendor stylesheets” path' do
+  it 'returns vendor stylesheets path' do
     expect(Animatify.vendor_stylesheets_path).to eql vendor_stylesheets_path
   end
 end
