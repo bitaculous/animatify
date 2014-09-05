@@ -99,7 +99,7 @@ All animations originate from [animate.css] by [Daniel Eden].
 
 Animatify uses [Bourbon] by [thoughtbot, inc.] to implement all animations.
 
-Bug reports
+Bug Reports
 -----------
 
 Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
