@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(/^bin/).map { |file| File.basename file }
   spec.test_files  = spec.files.grep(/^(features|spec|test)/)
 
-  spec.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '~> 2.0'
 
   spec.required_rubygems_version = '~> 2.4'
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'sprockets', '~> 2.12.2'
 
-  spec.add_development_dependency 'bundler', '~> 1.7.2'
+  spec.add_development_dependency 'bundler', '~> 1.7.3'
 
   spec.add_development_dependency 'rake', '~> 10.3.2'
 
