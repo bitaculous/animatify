@@ -3,12 +3,12 @@
     {
       "name": "animatify",
       "path": "./",
-      "file_exclude_patterns": [
-        ".keep"
-      ],
       "folder_exclude_patterns": [
         ".bundle",
         "pkg"
+      ],
+      "file_exclude_patterns": [
+        ".keep"
       ]
     }
   ]
