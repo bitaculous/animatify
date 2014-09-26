@@ -8,7 +8,6 @@
       ],
       "folder_exclude_patterns": [
         ".bundle",
-        "bin",
         "pkg"
       ]
     }
