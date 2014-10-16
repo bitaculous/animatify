@@ -118,15 +118,15 @@ License
 Assetify is released under the [MIT License (MIT)], see [LICENSE].
 
 [animate.css]: https://github.com/daneden/animate.css "animate.css"
-[Animatify]: http://bitaculous.github.io/animatify "“All your CSS3 animations are belong to us”"
+[Animatify]: https://bitaculous.github.io/animatify/ "“All your CSS3 animations are belong to us”"
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
 [Daniel Eden]: https://github.com/daneden "Daniel Eden"
 [Gemnasium]: https://gemnasium.com/bitaculous/animatify "Animatify at Gemnasium"
-[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
+[Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
 [here]: https://github.com/bitaculous/animatify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
 [Travis CI]: https://travis-ci.org/bitaculous/animatify "Animatify at Travis CI"
-[Travis CI Status]: http://img.shields.io/travis/bitaculous/animatify.svg?style=flat "Travis CI Status"
+[Travis CI Status]: https://img.shields.io/travis/bitaculous/animatify.svg?style=flat "Travis CI Status"
