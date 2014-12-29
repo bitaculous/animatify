@@ -6,12 +6,11 @@ $:.unshift lib unless $:.include? lib
 require 'animatify/version'
 
 Gem::Specification.new 'animatify', Animatify::VERSION do |spec|
-  spec.summary     = '“All your CSS3 animations are belong to us”'
-  spec.author      = 'Maik Kempe'
-  spec.email       = 'mkempe@bitaculous.com'
-  spec.homepage    = 'http://bitaculous.github.io/animatify/'
-  spec.license     = 'MIT'
-
+  spec.summary          = '“All your CSS3 animations are belong to us”'
+  spec.author           = 'Maik Kempe'
+  spec.email            = 'mkempe@bitaculous.com'
+  spec.homepage         = 'https://bitaculous.github.io/animatify/'
+  spec.license          = 'MIT'
   spec.files            = `git ls-files`.split($\)
   spec.executables      = spec.files.grep(/^bin/).map { |file| File.basename file }
   spec.test_files       = spec.files.grep(/^(features|spec|test)/)
