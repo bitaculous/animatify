@@ -13,8 +13,8 @@ Gem::Specification.new 'animatify', Animatify::VERSION do |spec|
   spec.license     = 'MIT'
 
   spec.files            = `git ls-files`.split($\)
-  spec.test_files       = spec.files.grep(/^(features|spec|test)/)
   spec.executables      = spec.files.grep(/^bin/).map { |file| File.basename file }
+  spec.test_files       = spec.files.grep(/^(features|spec|test)/)
   spec.extra_rdoc_files = ['LICENSE', 'README.md']
 
   spec.required_ruby_version = '~> 2.1'
