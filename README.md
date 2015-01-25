@@ -91,6 +91,23 @@ Implemented effects
 * Tada
 * Wobble
 
+Development
+-----------
+
+### Specs
+
+Use the `rspec` command to run the specs:
+
+```
+$ rspec
+```
+
+or via [Guard]:
+
+```
+$ guard -g spec
+```
+
 Credits
 -------
 
@@ -122,6 +139,7 @@ Assetify is released under the [MIT License (MIT)], see [LICENSE].
 [Daniel Eden]: https://github.com/daneden "Daniel Eden"
 [Gemnasium]: https://gemnasium.com/bitaculous/animatify "Animatify at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
+[Guard]: http://guardgem.org "A command line tool to easily handle events on file system modifications."
 [here]: https://github.com/bitaculous/animatify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
