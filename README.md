@@ -1,10 +1,9 @@
 [Animatify]
 ===========
 
-**“All your CSS3 animations are belong to us”**
+[![Travis CI Status][Travis CI Status]][Travis CI] [![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
-[![Travis CI Status][Travis CI Status]][Travis CI]
-[![Gemnasium Status][Gemnasium Status]][Gemnasium]
+**“All your CSS3 animations are belong to us”**
 
 Installation
 ------------
