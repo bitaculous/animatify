@@ -29,7 +29,7 @@
       </header>
       <section>
         <h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <ol>
 <li>
@@ -44,59 +44,52 @@ end
 </ol>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>First, import animatify:</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@import</span> <span class="s">animatify</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@import</span> animatify</pre></div>
 
 <p>The most basic option is simply:</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animatify</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animatify</span></pre></div>
 
 <p>which includes the “full package”.</p>
 
 <p>To include only the “animated” class:</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animated</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animated</span></pre></div>
 
 <p>or</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animated</span><span class="p">(</span><span class="nv">$selector</span><span class="o">:</span> <span class="s1">'</span><span class="s2">.foobar'</span><span class="o">,</span> <span class="nv">$duration</span><span class="o">:</span> <span class="mi">2</span><span class="kt">s</span><span class="p">)</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animated</span>(<span class="pl-v">$selector</span>: <span class="pl-s1">'.foobar'</span>, <span class="pl-v">$duration</span>:<span class="pl-c1"> 2</span><span class="pl-k">s</span>)</pre></div>
 
 <p>Let's say you just want the “bounce” animation:</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animation</span><span class="p">(</span><span class="s1">'</span><span class="s2">bounce'</span><span class="p">)</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animation</span>(<span class="pl-s1">'bounce'</span>)</pre></div>
 
 <p>But you can get much more detailed:</p>
 
-<div class="highlight highlight-sass"><pre><span class="k">@include</span><span class="nd"> animation</span><span class="p">(</span><span class="nv">$name</span><span class="o">:</span> <span class="s1">'</span><span class="s2">bounce'</span><span class="o">,</span> <span class="nv">$selector</span><span class="o">:</span> <span class="s1">'</span><span class="s2">.foobar'</span><span class="p">)</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animation</span>(<span class="pl-v">$name</span>: <span class="pl-s1">'bounce'</span>, <span class="pl-v">$selector</span>: <span class="pl-s1">'.foobar'</span>)</pre></div>
 
 <h2>
-<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h2>
 
 <h3>
-<a name="prefixes" class="anchor" href="#prefixes"><span class="octicon octicon-link"></span></a>Prefixes</h3>
+<a id="prefixes" class="anchor" href="#prefixes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prefixes</h3>
 
 <p>Animatify uses under the hood <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement all animations, you can disable prefixes with:</p>
 
-<div class="highlight highlight-sass"><pre><span class="na">$prefix-for-webkit</span><span class="o">:</span>    <span class="n-Pseudo">false</span>
-<span class="na">$prefix-for-mozilla</span><span class="o">:</span>   <span class="n-Pseudo">false</span>
-<span class="na">$prefix-for-microsoft</span><span class="o">:</span> <span class="n-Pseudo">false</span>
-<span class="na">$prefix-for-opera</span><span class="o">:</span>     <span class="n-Pseudo">false</span>
-</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-v">$prefix-for-webkit</span>:    <span class="pl-c1">false</span>
+<span class="pl-v">$prefix-for-mozilla</span>:   <span class="pl-c1">false</span>
+<span class="pl-v">$prefix-for-microsoft</span>: <span class="pl-c1">false</span>
+<span class="pl-v">$prefix-for-opera</span>:     <span class="pl-c1">false</span></pre></div>
 
 <h2>
-<a name="implemented-effects" class="anchor" href="#implemented-effects"><span class="octicon octicon-link"></span></a>Implemented effects</h2>
+<a id="implemented-effects" class="anchor" href="#implemented-effects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implemented effects</h2>
 
 <h3>
-<a name="bouncing" class="anchor" href="#bouncing"><span class="octicon octicon-link"></span></a>Bouncing</h3>
+<a id="bouncing" class="anchor" href="#bouncing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bouncing</h3>
 
 <ul>
 <li>Bounce</li>
@@ -104,7 +97,7 @@ end
 </ul>
 
 <h3>
-<a name="other" class="anchor" href="#other"><span class="octicon octicon-link"></span></a>Other</h3>
+<a id="other" class="anchor" href="#other" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other</h3>
 
 <ul>
 <li>Fade in</li>
@@ -117,33 +110,48 @@ end
 </ul>
 
 <h2>
-<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<h3>
+<a id="specs" class="anchor" href="#specs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Specs</h3>
+
+<p>Use the <code>rspec</code> command to run the specs:</p>
+
+<pre><code>$ rspec
+</code></pre>
+
+<p>or via <a href="http://guardgem.org" title="A command line tool to easily handle events on file system modifications.">Guard</a>:</p>
+
+<pre><code>$ guard -g spec
+</code></pre>
+
+<h2>
+<a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Status</h2>
+
+<p><a href="https://travis-ci.org/bitaculous/animatify" title="Animatify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/animatify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a> <a href="https://gemnasium.com/bitaculous/animatify" title="Animatify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
 
 <p>All animations originate from <a href="https://github.com/daneden/animate.css" title="animate.css">animate.css</a> by <a href="https://github.com/daneden" title="Daniel Eden">Daniel Eden</a>.</p>
 
 <p>Animatify uses <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement all animations.</p>
 
 <h2>
-<a name="code-status" class="anchor" href="#code-status"><span class="octicon octicon-link"></span></a>Code Status</h2>
-
-<p><a href="https://travis-ci.org/bitaculous/animatify" title="Animatify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/animatify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a>
-<a href="https://gemnasium.com/bitaculous/animatify" title="Animatify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
-
-<h2>
-<a name="bug-reports" class="anchor" href="#bug-reports"><span class="octicon octicon-link"></span></a>Bug Reports</h2>
+<a id="bug-reports" class="anchor" href="#bug-reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug Reports</h2>
 
 <p>Github Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues
 and submit new problems <a href="https://github.com/bitaculous/animatify/issues" title="Github Issues">here</a>.</p>
 
 <h2>
-<a name="versioning" class="anchor" href="#versioning"><span class="octicon octicon-link"></span></a>Versioning</h2>
+<a id="versioning" class="anchor" href="#versioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Versioning</h2>
 
 <p>This library aims to adhere to <a href="http://semver.org" title="Semantic Versioning 2.0.0">Semantic Versioning 2.0.0</a>. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.</p>
 
 <h2>
-<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>Assetify is released under the <a href="http://opensource.org/licenses/MIT" title="The MIT License (MIT)">MIT License (MIT)</a>, see <a href="https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE" title="License">LICENSE</a>.</p>
       </section>
