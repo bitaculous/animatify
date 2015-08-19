@@ -1,4 +1,4 @@
-describe Animatify::Integrations::SassIntegration do
+RSpec.describe Animatify::Integrations::SassIntegration do
   include Helpers
 
   subject { Animatify::Integrations::SassIntegration }

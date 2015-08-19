@@ -1,4 +1,4 @@
-describe Animatify::Integrations::SprocketsIntegration do
+RSpec.describe Animatify::Integrations::SprocketsIntegration do
   include Helpers
 
   subject { Animatify::Integrations::SprocketsIntegration }

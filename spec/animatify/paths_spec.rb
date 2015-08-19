@@ -1,4 +1,4 @@
-describe Animatify::Paths do
+RSpec.describe Animatify::Paths do
   subject { Animatify }
 
   let(:trail)                   { File.expand_path '../../../', __FILE__ }
