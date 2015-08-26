@@ -18,7 +18,7 @@ Gem::Specification.new 'animatify', Animatify::VERSION do |spec|
   spec.required_rubygems_version = '~> 2.4'
 
   spec.add_runtime_dependency 'sprockets', '>= 2.12.4'
-  spec.add_runtime_dependency 'bourbon',   '~> 4.2.3'
+  spec.add_runtime_dependency 'bourbon',   '~> 4.2.4'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake',    '~> 10.4.2'
