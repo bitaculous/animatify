@@ -150,6 +150,7 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [here]: https://github.com/bitaculous/animatify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
+[RuboCop]: https://github.com/bbatsov/rubocop "A Ruby static code analyzer, based on the community Ruby style guide."
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
 [Travis CI]: https://travis-ci.org/bitaculous/animatify "Animatify at Travis CI"
