@@ -1,7 +1,8 @@
 [Animatify]
 ===========
 
-[![Travis CI Status][Travis CI Status]][Travis CI] [![Gemnasium Status][Gemnasium Status]][Gemnasium]
+[![Travis CI Status][Travis CI Status]][Travis CI]
+[![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 **“All your CSS3 animations are belong to us”**
 
@@ -10,7 +11,7 @@ Installation
 
 1. Add animatify to your Gemfile:
 
-    ```
+    ```ruby
     group :assets do
       gem 'animatify', github: 'bitaculous/animatify'
     end
