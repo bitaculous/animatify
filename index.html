@@ -6,7 +6,7 @@
     <title>Animatify by bitaculous</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,10 +35,9 @@
 <li>
 <p>Add animatify to your Gemfile:</p>
 
-<pre><code>group :assets do
-  gem 'animatify', github: 'bitaculous/animatify'
-end
-</code></pre>
+<div class="highlight highlight-ruby"><pre>group <span class="pl-c1">:assets</span> <span class="pl-k">do</span>
+  <span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>animatify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/animatify<span class="pl-pds">'</span></span>
+<span class="pl-k">end</span></pre></div>
 </li>
 <li><p>Run <code>bundle install</code></p></li>
 </ol>
@@ -52,25 +51,25 @@ end
 
 <p>The most basic option is simply:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animatify</span></pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animatify</span></pre></div>
 
 <p>which includes the “full package”.</p>
 
 <p>To include only the “animated” class:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animated</span></pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span></pre></div>
 
 <p>or</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animated</span>(<span class="pl-v">$selector</span>: <span class="pl-s1">'.foobar'</span>, <span class="pl-v">$duration</span>:<span class="pl-c1"> 2</span><span class="pl-k">s</span>)</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span>(<span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>, <span class="pl-v">$duration</span>:<span class="pl-c1"> 2</span><span class="pl-k">s</span>)</pre></div>
 
 <p>Let's say you just want the “bounce” animation:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animation</span>(<span class="pl-s1">'bounce'</span>)</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-s">'bounce'</span>)</pre></div>
 
 <p>But you can get much more detailed:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-s3"> animation</span>(<span class="pl-v">$name</span>: <span class="pl-s1">'bounce'</span>, <span class="pl-v">$selector</span>: <span class="pl-s1">'.foobar'</span>)</pre></div>
+<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-v">$name</span>: <span class="pl-s">'bounce'</span>, <span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>)</pre></div>
 
 <h2>
 <a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h2>
@@ -113,7 +112,7 @@ end
 <a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
 
 <h3>
-<a id="specs" class="anchor" href="#specs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Specs</h3>
+<a id="run-specs" class="anchor" href="#run-specs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run Specs</h3>
 
 <p>Use the <code>rspec</code> command to run the specs:</p>
 
@@ -125,6 +124,14 @@ end
 <pre><code>$ guard -g spec
 </code></pre>
 
+<h3>
+<a id="run-rubocop" class="anchor" href="#run-rubocop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run <a href="https://github.com/bbatsov/rubocop" title="A Ruby static code analyzer, based on the community Ruby style guide.">RuboCop</a>
+</h3>
+
+<p>Run <code>rubocop</code>.</p>
+
+<p>To run Specs and RuboCop altogether, run <code>rake</code>.</p>
+
 <h2>
 <a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
 
@@ -135,7 +142,8 @@ end
 <h2>
 <a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Status</h2>
 
-<p><a href="https://travis-ci.org/bitaculous/animatify" title="Animatify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/animatify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a> <a href="https://gemnasium.com/bitaculous/animatify" title="Animatify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
+<p><a href="https://travis-ci.org/bitaculous/animatify" title="Animatify at Travis CI"><img src="https://img.shields.io/travis/bitaculous/animatify.svg?style=flat" alt="Travis CI Status" title="Travis CI Status"></a>
+<a href="https://gemnasium.com/bitaculous/animatify" title="Animatify at Gemnasium"><img src="https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat" alt="Gemnasium Status" title="Gemnasium Status"></a></p>
 
 <h2>
 <a id="bug-reports" class="anchor" href="#bug-reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug Reports</h2>
@@ -153,7 +161,7 @@ immediately yanked and / or a new version should be immediately released that re
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
-<p>Assetify is released under the <a href="http://opensource.org/licenses/MIT" title="The MIT License (MIT)">MIT License (MIT)</a>, see <a href="https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE" title="License">LICENSE</a>.</p>
+<p>Animatify is released under the <a href="http://opensource.org/licenses/MIT" title="The MIT License (MIT)">MIT License (MIT)</a>, see <a href="https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE" title="License">LICENSE</a>.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/bitaculous">bitaculous</a></p>
