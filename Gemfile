@@ -13,8 +13,8 @@ end
 group :test do
   # --- Code Analysis ---
 
-  gem 'rubocop', '~> 0.33.0', require: false
-  gem 'rubocop-rspec', '~> 1.3.0', require: false
+  gem 'rubocop',       '~> 0.33.0', require: false
+  gem 'rubocop-rspec', '~> 1.3.0',  require: false
 
   # --- Formatter ---
 
