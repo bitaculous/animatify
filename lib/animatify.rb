@@ -1,4 +1,4 @@
-module Animatify
+module Animatify # :nodoc:
   require 'animatify/paths'
 
   extend Paths

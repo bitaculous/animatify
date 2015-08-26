@@ -1,9 +1,6 @@
 #!/usr/bin/env gem build
 
-lib = File.expand_path '../lib', __FILE__
-$:.unshift lib unless $:.include? lib
-
-require 'animatify/version'
+require File.expand_path '../lib/animatify/version', __FILE__
 
 Gem::Specification.new 'animatify', Animatify::VERSION do |spec|
   spec.summary          = '“All your CSS3 animations are belong to us”'

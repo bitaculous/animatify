@@ -95,7 +95,7 @@ Implemented effects
 Development
 -----------
 
-### Specs
+### Run Specs
 
 Use the `rspec` command to run the specs:
 
@@ -108,6 +108,12 @@ or via [Guard]:
 ```
 $ guard -g spec
 ```
+
+### Run [RuboCop]
+
+Run `rubocop`.
+
+To run Specs and RuboCop altogether, run `rake`.
 
 Credits
 -------
@@ -132,7 +138,7 @@ immediately yanked and / or a new version should be immediately released that re
 License
 -------
 
-Assetify is released under the [MIT License (MIT)], see [LICENSE].
+Animatify is released under the [MIT License (MIT)], see [LICENSE].
 
 [animate.css]: https://github.com/daneden/animate.css "animate.css"
 [Animatify]: https://bitaculous.github.io/animatify/ "“All your CSS3 animations are belong to us”"

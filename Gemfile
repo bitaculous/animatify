@@ -10,6 +10,17 @@ group :development do
   gem 'guard-rspec', '~> 4.6.4', require: false
 end
 
+group :test do
+  # --- Code Analysis ---
+
+  gem 'rubocop', '~> 0.33.0', require: false
+  gem 'rubocop-rspec', '~> 1.3.0', require: false
+
+  # --- Formatter ---
+
+  gem 'nyan-cat-formatter', '~> 0.11', require: false
+end
+
 group :misc do
   gem 'growl', '~> 1.0.3', require: RUBY_PLATFORM.include?('darwin') && 'growl'
 

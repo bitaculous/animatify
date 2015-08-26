@@ -1,5 +1,5 @@
 module Animatify
-  module Integrations
+  module Integrations # :nodoc:
     require 'animatify/integrations/sass_integration'
     SassIntegration.setup
 

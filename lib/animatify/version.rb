@@ -1,3 +1,3 @@
-module Animatify
+module Animatify # :nodoc:
   VERSION = '1.3.2'
 end
