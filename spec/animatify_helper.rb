@@ -1,6 +1,6 @@
 root = File.expand_path '../../', __FILE__
 
-# Require Animatify.
+# Require the test object.
 require 'animatify'
 
 # Require the spec helper.
