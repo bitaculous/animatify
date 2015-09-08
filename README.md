@@ -115,13 +115,6 @@ Run `rubocop`.
 
 To run all specs and RuboCop altogether, run `rake`.
 
-Credits
--------
-
-All animations originate from [animate.css] by [Daniel Eden].
-
-Animatify uses [Bourbon] by [thoughtbot, inc.] to implement all animations.
-
 Bug Reports
 -----------
 
@@ -134,6 +127,13 @@ Versioning
 This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
+
+Credits
+-------
+
+All animations originate from [animate.css] by [Daniel Eden].
+
+Animatify uses [Bourbon] by [thoughtbot, inc.] to implement all animations.
 
 License
 -------
