@@ -1,0 +1,16 @@
+// _fade_in.sass
+//
+// @package bitaculous/animatify/effects
+
+@mixin animation-fade-in($selector: $default-animation-selector)
+  @include keyframes-fade-in
+
+  @include animation-class('fade-in', $selector)
+
+@mixin keyframes-fade-in
+  @include keyframes('fade-in')
+    0%
+      opacity: 0
+
+    100%
+      opacity: 1

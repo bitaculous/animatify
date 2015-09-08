@@ -1,0 +1,58 @@
+// animatify.sass
+//
+// @package bitaculous
+
+@import animatify/variables
+@import animatify/vendor
+@import animatify/effects
+
+@mixin animatify
+  @include animated
+
+  @include hinge
+
+  @include animation('bounce')
+  @include animation('bounce-in')
+  @include animation('fade-in')
+  @include animation('flash')
+  @include animation('pulse')
+  @include animation('shake')
+  @include animation('swing')
+  @include animation('tada')
+  @include animation('wobble')
+
+@mixin animated($selector: $default-animation-selector, $duration: $default-animation-duration, $fill-mode: $default-animation-fill-mode)
+  #{$selector}
+    @include animation-duration($duration)
+    @include animation-fill-mode($fill-mode)
+
+@mixin hinge($selector: $default-animation-selector, $hinge-selector: $default-hinge-selector, $hinge-animation-duration: $default-hinge-animation-duration)
+  #{$selector}
+    &#{$hinge-selector}
+      @include animation-duration($hinge-animation-duration)
+
+@mixin animation($name, $selector: $default-animation-selector)
+  @if $name == 'bounce'
+    @include keyframes-bounce
+  @if $name == 'bounce-in'
+    @include keyframes-bounce-in
+  @else if $name == 'fade-in'
+    @include keyframes-fade-in
+  @else if $name == 'flash'
+    @include keyframes-flash
+  @else if $name == 'pulse'
+    @include keyframes-pulse
+  @else if $name == 'shake'
+    @include keyframes-shake
+  @else if $name == 'swing'
+    @include keyframes-swing
+  @else if $name == 'tada'
+    @include keyframes-tada
+  @else if $name == 'wobble'
+    @include keyframes-wobble
+
+  @include animation-class($name, $selector)
+
+@mixin animation-class($name, $selector: $default-animation-selector)
+  #{$selector}.#{$name}
+    @include animation-name($name)

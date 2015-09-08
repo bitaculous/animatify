@@ -1,0 +1,19 @@
+// _pulse.sass
+//
+// @package bitaculous/animatify/effects
+
+@mixin animation-pulse($selector: $default-animation-selector)
+  @include keyframes-pulse
+
+  @include animation-class('pulse', $selector)
+
+@mixin keyframes-pulse
+  @include keyframes('pulse')
+    0%
+      @include transform(scale(1))
+
+    50%
+      @include transform(scale(1.1))
+
+    100%
+      @include transform(scale(1))

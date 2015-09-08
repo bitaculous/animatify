@@ -13,11 +13,11 @@ Installation
 
     ```ruby
     group :assets do
-      gem 'animatify', github: 'bitaculous/animatify'
+      gem 'bitaculous-animatify', github: 'bitaculous/animatify'
     end
     ```
 
-2. Run `bundle install`
+2. Run `bundle` to install all dependencies with [Bundler]
 
 Usage
 -----
@@ -95,13 +95,9 @@ Implemented effects
 Development
 -----------
 
-### Run Specs
+### Run specs with [RSpec]
 
-Use the `rspec` command to run the specs:
-
-```
-$ rspec
-```
+Run `rspec`.
 
 or via [Guard]:
 
@@ -109,11 +105,15 @@ or via [Guard]:
 $ guard -g spec
 ```
 
+### See Test Coverage
+
+Run `COVERAGE=true rspec`.
+
 ### Run [RuboCop]
 
 Run `rubocop`.
 
-To run Specs and RuboCop altogether, run `rake`.
+To run all specs and RuboCop altogether, run `rake`.
 
 Credits
 -------
@@ -143,6 +143,7 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [animate.css]: https://github.com/daneden/animate.css "animate.css"
 [Animatify]: https://bitaculous.github.io/animatify/ "“All your CSS3 animations are belong to us”"
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
+[Bundler]: http://bundler.io "The best way to manage a Ruby application's gems"
 [Daniel Eden]: https://github.com/daneden "Daniel Eden"
 [Gemnasium]: https://gemnasium.com/bitaculous/animatify "Animatify at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
@@ -150,6 +151,7 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [here]: https://github.com/bitaculous/animatify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
+[RSpec]: http://rspec.info "Behaviour Driven Development for Ruby"
 [RuboCop]: https://github.com/bbatsov/rubocop "A Ruby static code analyzer, based on the community Ruby style guide."
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
 [thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
