@@ -36,10 +36,10 @@
 <p>Add animatify to your Gemfile:</p>
 
 <div class="highlight highlight-ruby"><pre>group <span class="pl-c1">:assets</span> <span class="pl-k">do</span>
-  <span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>animatify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/animatify<span class="pl-pds">'</span></span>
+  <span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous-animatify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/animatify<span class="pl-pds">'</span></span>
 <span class="pl-k">end</span></pre></div>
 </li>
-<li><p>Run <code>bundle install</code></p></li>
+<li><p>Run <code>bundle</code> to install all dependencies with <a href="http://bundler.io" title="The best way to manage a Ruby application's gems">Bundler</a></p></li>
 </ol>
 
 <h2>
@@ -112,12 +112,10 @@
 <a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
 
 <h3>
-<a id="run-specs" class="anchor" href="#run-specs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run Specs</h3>
+<a id="run-specs-with-rspec" class="anchor" href="#run-specs-with-rspec" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run specs with <a href="http://rspec.info" title="Behaviour Driven Development for Ruby">RSpec</a>
+</h3>
 
-<p>Use the <code>rspec</code> command to run the specs:</p>
-
-<pre><code>$ rspec
-</code></pre>
+<p>Run <code>rspec</code>.</p>
 
 <p>or via <a href="http://guardgem.org" title="A command line tool to easily handle events on file system modifications.">Guard</a>:</p>
 
@@ -125,19 +123,17 @@
 </code></pre>
 
 <h3>
+<a id="see-test-coverage" class="anchor" href="#see-test-coverage" aria-hidden="true"><span class="octicon octicon-link"></span></a>See Test Coverage</h3>
+
+<p>Run <code>COVERAGE=true rspec</code>.</p>
+
+<h3>
 <a id="run-rubocop" class="anchor" href="#run-rubocop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run <a href="https://github.com/bbatsov/rubocop" title="A Ruby static code analyzer, based on the community Ruby style guide.">RuboCop</a>
 </h3>
 
 <p>Run <code>rubocop</code>.</p>
 
-<p>To run Specs and RuboCop altogether, run <code>rake</code>.</p>
-
-<h2>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
-
-<p>All animations originate from <a href="https://github.com/daneden/animate.css" title="animate.css">animate.css</a> by <a href="https://github.com/daneden" title="Daniel Eden">Daniel Eden</a>.</p>
-
-<p>Animatify uses <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement all animations.</p>
+<p>To run all specs and RuboCop altogether, run <code>rake</code>.</p>
 
 <h2>
 <a id="code-status" class="anchor" href="#code-status" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Status</h2>
@@ -157,6 +153,13 @@ and submit new problems <a href="https://github.com/bitaculous/animatify/issues"
 <p>This library aims to adhere to <a href="http://semver.org" title="Semantic Versioning 2.0.0">Semantic Versioning 2.0.0</a>. Violations of this scheme should be reported as bugs.
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.</p>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>All animations originate from <a href="https://github.com/daneden/animate.css" title="animate.css">animate.css</a> by <a href="https://github.com/daneden" title="Daniel Eden">Daniel Eden</a>.</p>
+
+<p>Animatify uses <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement all animations.</p>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
