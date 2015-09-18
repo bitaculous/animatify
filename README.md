@@ -12,9 +12,7 @@ Installation
 1. Add animatify to your Gemfile:
 
     ```ruby
-    group :assets do
-      gem 'bitaculous-animatify', github: 'bitaculous/animatify'
-    end
+    gem 'bitaculous-animatify', github: 'bitaculous/animatify'
     ```
 
 2. Run `bundle` to install all dependencies with [Bundler]

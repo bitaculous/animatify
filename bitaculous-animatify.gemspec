@@ -15,7 +15,7 @@ Gem::Specification.new 'bitaculous-animatify', Bitaculous::Animatify::VERSION do
   spec.required_rubygems_version = '~> 2.4'
 
   spec.add_runtime_dependency 'sprockets', '>= 2.12.4'
-  spec.add_runtime_dependency 'bourbon',   '~> 4.2.4'
+  spec.add_runtime_dependency 'bourbon',   '~> 4.2.5'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake',    '~> 10.4.2'
