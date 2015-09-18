@@ -35,9 +35,7 @@
 <li>
 <p>Add animatify to your Gemfile:</p>
 
-<div class="highlight highlight-ruby"><pre>group <span class="pl-c1">:assets</span> <span class="pl-k">do</span>
-  <span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous-animatify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/animatify<span class="pl-pds">'</span></span>
-<span class="pl-k">end</span></pre></div>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous-animatify<span class="pl-pds">'</span></span>, <span class="pl-c1">github:</span> <span class="pl-s"><span class="pl-pds">'</span>bitaculous/animatify<span class="pl-pds">'</span></span></pre></div>
 </li>
 <li><p>Run <code>bundle</code> to install all dependencies with <a href="http://bundler.io" title="The best way to manage a Ruby application's gems">Bundler</a></p></li>
 </ol>
@@ -47,29 +45,29 @@
 
 <p>First, import animatify:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@import</span> animatify</pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@import</span> animatify</pre></div>
 
 <p>The most basic option is simply:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animatify</span></pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animatify</span></pre></div>
 
 <p>which includes the “full package”.</p>
 
 <p>To include only the “animated” class:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span></pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span></pre></div>
 
 <p>or</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span>(<span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>, <span class="pl-v">$duration</span>:<span class="pl-c1"> 2</span><span class="pl-k">s</span>)</pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animated</span>(<span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>, <span class="pl-v">$duration</span>:<span class="pl-c1"> 2</span><span class="pl-k">s</span>)</pre></div>
 
 <p>Let's say you just want the “bounce” animation:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-s">'bounce'</span>)</pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-s">'bounce'</span>)</pre></div>
 
 <p>But you can get much more detailed:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-v">$name</span>: <span class="pl-s">'bounce'</span>, <span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>)</pre></div>
+<div class="highlight highlight-source-sass"><pre><span class="pl-k">@include</span><span class="pl-c1"> animation</span>(<span class="pl-v">$name</span>: <span class="pl-s">'bounce'</span>, <span class="pl-v">$selector</span>: <span class="pl-s">'.foobar'</span>)</pre></div>
 
 <h2>
 <a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h2>
@@ -79,7 +77,7 @@
 
 <p>Animatify uses under the hood <a href="https://github.com/thoughtbot/bourbon" title="Bourbon">Bourbon</a> by <a href="http://robots.thoughtbot.com" title="thoughtbot, inc.">thoughtbot, inc.</a> to implement all animations, you can disable prefixes with:</p>
 
-<div class="highlight highlight-sass"><pre><span class="pl-v">$prefix-for-webkit</span>:    <span class="pl-c1">false</span>
+<div class="highlight highlight-source-sass"><pre><span class="pl-v">$prefix-for-webkit</span>:    <span class="pl-c1">false</span>
 <span class="pl-v">$prefix-for-mozilla</span>:   <span class="pl-c1">false</span>
 <span class="pl-v">$prefix-for-microsoft</span>: <span class="pl-c1">false</span>
 <span class="pl-v">$prefix-for-opera</span>:     <span class="pl-c1">false</span></pre></div>
