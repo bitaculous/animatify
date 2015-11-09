@@ -1,0 +1,24 @@
+{
+  "name": "bitaculous-animatify",
+  "version": "2.0.0",
+  "description": "“All your CSS3 animations are belong to us”",
+  "keywords": [
+    "Bitaculous",
+    "Animatify"
+  ],
+  "homepage": "https://bitaculous.github.io/animatify/",
+  "authors": [
+    "Maik Kempe <mkempe@bitaculous.com> (https://bitaculous.com)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitaculous/animatify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitaculous/animatify/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
