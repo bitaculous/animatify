@@ -11,6 +11,16 @@
 Installation
 ------------
 
+### [Bower]
+
+Run `bower install bitaculous/assetify`.
+
+### [npm]
+
+Run `npm install bitaculous/assetify`.
+
+### [Sprockets]
+
 1. Add animatify to your Gemfile:
 
     ```ruby
@@ -143,6 +153,7 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [animate.css]: https://github.com/daneden/animate.css "animate.css"
 [Animatify]: https://bitaculous.github.io/animatify/ "“All your CSS3 animations are belong to us”"
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
+[Bower]: http://bower.io "A package manager for the web"
 [Bundler]: http://bundler.io "The best way to manage a Ruby application's gems"
 [Code Climate]: https://codeclimate.com/github/bitaculous/animatify "Animatify at Code Climate"
 [Code Climate Status]: https://img.shields.io/codeclimate/github/bitaculous/animatify.svg?style=flat "Code Climate Status"
@@ -153,9 +164,11 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [here]: https://github.com/bitaculous/animatify/issues "Github Issues"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/animatify/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
+[npm]: https://www.npmjs.com "A package manager for JavaScript"
 [RSpec]: http://rspec.info "Behaviour Driven Development for Ruby"
 [RuboCop]: https://github.com/bbatsov/rubocop "A Ruby static code analyzer, based on the community Ruby style guide."
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[Sprockets]: https://github.com/sstephenson/sprockets "Rack-based asset packaging system"
 [Test Coverage]: https://codeclimate.com/github/bitaculous/animatify "Test Coverage (Code Climate)"
 [Test Coverage Status]: https://img.shields.io/codeclimate/coverage/github/bitaculous/animatify.svg?style=flat "Test Coverage Status"
 [thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
