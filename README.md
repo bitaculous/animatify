@@ -2,6 +2,8 @@
 ===========
 
 [![Travis CI Status][Travis CI Status]][Travis CI]
+[![Code Climate Status][Code Climate Status]][Code Climate]
+[![Test Coverage Status][Test Coverage Status]][Test Coverage]
 [![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
 **“All your CSS3 animations are belong to us”**
@@ -142,6 +144,8 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [Animatify]: https://bitaculous.github.io/animatify/ "“All your CSS3 animations are belong to us”"
 [Bourbon]: https://github.com/thoughtbot/bourbon "Bourbon"
 [Bundler]: http://bundler.io "The best way to manage a Ruby application's gems"
+[Code Climate]: https://codeclimate.com/github/bitaculous/animatify "Animatify at Code Climate"
+[Code Climate Status]: https://img.shields.io/codeclimate/github/bitaculous/animatify.svg?style=flat "Code Climate Status"
 [Daniel Eden]: https://github.com/daneden "Daniel Eden"
 [Gemnasium]: https://gemnasium.com/bitaculous/animatify "Animatify at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/animatify.svg?style=flat "Gemnasium Status"
@@ -152,6 +156,8 @@ Animatify is released under the [MIT License (MIT)], see [LICENSE].
 [RSpec]: http://rspec.info "Behaviour Driven Development for Ruby"
 [RuboCop]: https://github.com/bbatsov/rubocop "A Ruby static code analyzer, based on the community Ruby style guide."
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[Test Coverage]: https://codeclimate.com/github/bitaculous/animatify "Test Coverage (Code Climate)"
+[Test Coverage Status]: https://img.shields.io/codeclimate/coverage/github/bitaculous/animatify.svg?style=flat "Test Coverage Status"
 [thoughtbot, inc.]: http://robots.thoughtbot.com "thoughtbot, inc."
 [Travis CI]: https://travis-ci.org/bitaculous/animatify "Animatify at Travis CI"
 [Travis CI Status]: https://img.shields.io/travis/bitaculous/animatify.svg?style=flat "Travis CI Status"
