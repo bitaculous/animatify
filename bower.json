@@ -27,5 +27,8 @@
   ],
   "main": [
     "assets/stylesheets/bitaculous/animatify.sass"
-  ]
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6"
+  }
 }
