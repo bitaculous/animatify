@@ -1,5 +1,7 @@
 module Bitaculous
   module Animatify # :nodoc:
+    require_relative 'animatify/vendor'
+
     require_relative 'animatify/paths'
 
     extend Paths
