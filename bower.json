@@ -23,7 +23,9 @@
     "lib",
     "package.json",
     "Rakefile",
-    "spec"
+    "resources",
+    "spec",
+    "tasks"
   ],
   "main": [
     "assets/stylesheets/bitaculous/animatify.sass"
