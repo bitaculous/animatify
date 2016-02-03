@@ -1,0 +1,11 @@
+/.*
+/*.gemspec
+/*.sublime-project
+/bower.json
+/Gemfile
+/Guardfile
+/lib/
+/Rakefile
+/resources/
+/spec/
+/tasks/
