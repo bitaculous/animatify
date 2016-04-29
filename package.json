@@ -1,6 +1,6 @@
 {
   "name": "bitaculous-animatify",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "“All your CSS3 animations are belong to us”",
   "keywords": [
     "Bitaculous",
@@ -22,6 +22,6 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "bourbon": "~4.2.6"
+    "bourbon": "~4.2.7"
   }
 }
