@@ -1,5 +1,6 @@
 /*.sublime-workspace
 /.bundle/
+/.node-version
 /.ruby-gemset
 /.ruby-version
 /coverage/
