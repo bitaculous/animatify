@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 module Bitaculous
   module Animatify
     module Integrations # :nodoc:
       require_relative 'integrations/sass_integration'
+
       Bitaculous::Animatify::Integrations::SassIntegration.append_paths [
         Bitaculous::Animatify.stylesheets_path,
         Bitaculous::Animatify.vendor_stylesheets_path
-
       ]
 
       require_relative 'integrations/sprockets_integration'

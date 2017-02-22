@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Bitaculous
   module Animatify # :nodoc:
     require_relative 'animatify/vendor'

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Bitaculous::Animatify::Integrations::SassIntegration do
   include Helpers
 
@@ -25,17 +27,17 @@ RSpec.describe Bitaculous::Animatify::Integrations::SassIntegration do
     let(:paths) { ['/tmp/foo', '/tmp/bar'] }
     let(:path)  { '/tmp/foo' }
 
-    it 'does not expands the load paths' do
+    it 'does no expand the load path' do
+      described_class.append_path path
+
+      expect(load_paths).not_to include path
+    end
+
+    it 'does no expand the load paths' do
       described_class.append_paths paths
 
       expect(load_paths).not_to include paths[0]
       expect(load_paths).not_to include paths[1]
-    end
-
-    it 'does not expands the load path' do
-      described_class.append_path path
-
-      expect(load_paths).not_to include path
     end
   end
 end
