@@ -31,6 +31,6 @@
     "assets/stylesheets/bitaculous/animatify.sass"
   ],
   "dependencies": {
-    "bourbon": "~4.3.2"
+    "bourbon": "~4.3.4"
   }
 }

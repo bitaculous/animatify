@@ -23,6 +23,6 @@
     "node": ">= 4.9.5"
   },
   "devDependencies": {
-    "bourbon": "~4.2.7"
+    "bourbon": "~4.3.4"
   }
 }
