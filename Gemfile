@@ -3,7 +3,7 @@
 
 source 'https://rubygems.org'
 
-# Declare the gem's dependencies in `bitaculous-assetify.gemspec`. Bundler will treat runtime dependencies like base
+# Declare the gem's dependencies in `bitaculous-animatify.gemspec`. Bundler will treat runtime dependencies like base
 # dependencies, and development dependencies will be added by default to the `:development` group.
 gemspec
 
@@ -33,7 +33,7 @@ end
 group :misc do
   # --- Formatter ---
 
-  gem 'nyan-cat-formatter', '~> 0.11', require: false
+  gem 'nyan-cat-formatter', '~> 0.12', require: false
 
   # --- macOS ---
 
